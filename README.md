@@ -34,11 +34,16 @@ This extension is designed to be used with the Nix DevContainer feature. Add thi
 }
 ```
 
+### Related Repositories
+
+- **VS Code Extension**: [https://github.com/AkosPapp/nix-devcontainer.vscode](https://github.com/AkosPapp/nix-devcontainer.vscode)
+- **DevContainer Feature**: [https://github.com/AkosPapp/devcontainer-features/tree/main/src/nix-devcontainer](https://github.com/AkosPapp/devcontainer-features/tree/main/src/nix-devcontainer)
+
 ## Requirements
 
 - Nix package manager installed (automatically provided by the devcontainer feature)
 - Running in a container or environment with sudo access to `/etc/profile.d/`
-- VS Code with workspace folders containing `flake.nix` files
+- VS Code with workspace folders containing `flake.nix` files with devShells.
 
 ## Usage
 
