@@ -2,7 +2,7 @@
     "name": "nix-devcontainer",
     "displayName": "Nix Devcontainer",
     "description": "Automatically creates shell scripts from nix print-dev-env output for Nix-based development containers.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "AkosPapp",
     "repository": {
         "type": "git",
